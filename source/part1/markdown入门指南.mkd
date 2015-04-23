@@ -1,0 +1,35 @@
+#Markdown 使用入门
+
+##编辑器选择
+##Retext
+###标题
+ # 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。
+###换行
+在文本中输入的换行会从最终生成的结果中删除，浏览器会根据可用空间自动换行。如果想强迫换行，可以在行尾插入至少两个空格。
+最简单的方法，在行尾插入至少两个空格：  
+换行   
+换行
+###列表
+无序列表  
++ lineone
++ linetwo  
+- lineone
+- linetwo  
+有序列表  
+1.  lineone
+2.  linetwo
+###引用
+> If you can not explain it simply, you do not understand it well enough.------Albert.Einstein.  
+ *If you can not explain it simply, you do not understand it well enough.------Albert.Einstein.*  
+ 
+结束引用，空行。
+###插入图片
+`![](url"title")`  
+![](https://totallyinspiredpc.files.wordpress.com/2014/02/wpid-99359c0ec8b3bf2a9ff4f7336cf64f9f.jpg?w=593"Einstein")
+
+
+###插入代码
+/用反引号``  
+    
+
+ 
