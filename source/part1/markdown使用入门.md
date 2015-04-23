@@ -1,7 +1,16 @@
 #Markdown 使用入门
 
 ##编辑器选择
-##Retext
+推荐haroopad  
+理由：　　
+- 多种主题
+- 左侧可显示语法
+- 中文界面
+- 跨平台
+
+不推荐retext 下载之后的功能不完整，貌似要安装拓展，没有实时预览。　　
+
+
 ###标题
  # 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。
 ###换行
@@ -17,10 +26,11 @@
 - linetwo  
 有序列表  
 1.  lineone
-2.  linetwo
+2.  linetwo  
+
 ###引用
 > If you can not explain it simply, you do not understand it well enough.------Albert.Einstein.  
- *If you can not explain it simply, you do not understand it well enough.------Albert.Einstein.*  
+ *If you can not exmakmarplain it simply, you do not understand it well enough.------Albert.Einstein.*  
  
 结束引用，空行。
 ###插入图片
@@ -30,6 +40,18 @@
 
 ###插入代码
 /用反引号``  
-    
 
- 
+`code`  
+```
+#timer
+def replaysetup():
+    global step, shape_list, click_count, history_list
+    shape_list =[]
+    if step < click_count:
+        step += 1
+        for history_step in range(0,step):
+            shape_list.append(history_list[history_step])
+    else:
+        step = 0```
+        
+        
